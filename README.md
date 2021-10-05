@@ -1,5 +1,5 @@
 # Machine_Learing_Heart_Disease_Classification - Project Overview
-This is my learning project when taking Machine Learning 0-Master course on Udemy. The goal of this project is to predict weather or not someone has heart disease based on their medical attributes via a Logestic Regression machine learning model.
+This is my learning project when taking Machine Learning 0-Master course on Udemy. The goal of this project is to predict weather or not someone has heart disease based on their medical attributes via **Logestic Regression**, **KNN Classifier** and **Random Forest Classifier**  machine learning models.
 
 ## 1. Problem definition
 Give clinical statement of a patient, can we predict weather or not they have heart disease?
@@ -39,13 +39,47 @@ There is no need to preprocess the data for this project, the data set is alread
 
 ## 6. Modelling and evaluation
 
-* Set up the input and ouput shapes (the images shape, in the form of Tensors) to the model
-* Set up model URL from Tensors Hub: **Keras deep learning model** : https://www.tensorflow.org/guide/keras/sequential_model
-* Create TensorBoard callback and early stopping callback
-* First train the model with a subset of data as a test, to check and develope the fucntion to visualize our predictions and evaluate the model
-* Train the moedel with the full data set, then make predictions on the test data.
-* Make custom image predictions
+### 6.1 Modelling and primary evaluation
+* Split the data into train and test set.
+* Write a function to loop through **Logisitc Regression**, **KNeighbors Classifier**, and **Random Forest Classifier**
+* Compared the accuracies from three models.
+
+
+![image](https://user-images.githubusercontent.com/70978272/136005548-946c3646-03a7-402f-a4c9-4b94e56301ec.png)
+
+
+* Compared the accuracies from three models.
 
 ![image](https://user-images.githubusercontent.com/70978272/135230918-47c8c04a-f452-4c53-8146-825fec59c92d.png)
+
+
+* Hyperparameter tuning 3 models: n_neighbors for KNN model, RandomSearchCV for Logisitic and Random Forest, and GridSearchCV for Logistic.
+
+
+![image](https://user-images.githubusercontent.com/70978272/136005961-21385a71-eb2a-46a9-a196-d19cc0f12825.png)
+**KNN**
+
+### 6.2 Evaluating our tuned machine learning classifier, beyond accuracy (use Logistic as a model example)
+
+* ROC curve and AUC score
+![image](https://user-images.githubusercontent.com/70978272/136006987-f73558e2-5ff5-4da9-ad9f-4881827330d2.png)
+**=from Logistic model**
+
+
+* Confusion matrix
+
+![image](https://user-images.githubusercontent.com/70978272/136007440-c338f725-3767-438c-a979-7ac63a6d980b.png)
+
+* Classification report
+* Precision
+* Recall 
+* F1-score
+
+![image](https://user-images.githubusercontent.com/70978272/136007485-fb23b8ae-5d66-4557-b0f0-de1371a8dd4a.png)
+
+
+### 6.3 Feature importnce (Logistic Regressor)
+
+![image](https://user-images.githubusercontent.com/70978272/136007190-47d9057d-c7c7-412e-a2fa-51a4ad6e0c18.png)
 
 
