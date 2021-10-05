@@ -63,11 +63,13 @@ There is no need to preprocess the data for this project, the data set is alread
 
 
 
-**Result of fine tuning KNN**
+**Result after fine tuning KNN**
 
 ### 6.2 Evaluating our tuned machine learning classifier, beyond accuracy (use Logistic as a model example)
 
 * ROC curve and AUC score
+
+
 ![image](https://user-images.githubusercontent.com/70978272/136006987-f73558e2-5ff5-4da9-ad9f-4881827330d2.png)
 
 
