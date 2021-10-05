@@ -48,11 +48,6 @@ There is no need to preprocess the data for this project, the data set is alread
 ![image](https://user-images.githubusercontent.com/70978272/136005548-946c3646-03a7-402f-a4c9-4b94e56301ec.png)
 
 
-* Compared the accuracies from three models.
-
-![image](https://user-images.githubusercontent.com/70978272/135230918-47c8c04a-f452-4c53-8146-825fec59c92d.png)
-
-
 * Hyperparameter tuning 3 models: n_neighbors for KNN model, RandomSearchCV for Logisitic and Random Forest, and GridSearchCV for Logistic.
 
 
