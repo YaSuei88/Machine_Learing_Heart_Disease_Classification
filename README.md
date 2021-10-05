@@ -14,18 +14,26 @@ Python version: 3.7
 Packages:  pandas, numpy, matplotlib, seaborn, sklearn
 
 ## 4. EDA
-I looked into the medical medical attributes: what are they, any possible corrlation to the heart dieases. Here are some examples:
+I looked into the medical attributes: what are they, any possible corrlation to the heart dieases. Here are some examples:
 
 ![image](https://user-images.githubusercontent.com/70978272/136003789-5c293b41-a8a0-408c-8a09-01749cf61226.png)
+
+
 **Heart disease frequency according to sex**
 
 
 
 ![image](https://user-images.githubusercontent.com/70978272/136003932-53d7db73-d33a-441e-b9ae-e442928adbdd.png)
+
+
+
+
 **Max heart rate and heart disease**
 
 
 ![image](https://user-images.githubusercontent.com/70978272/136004112-c4ed0ccf-7f40-4c00-b314-4851f18fe21a.png)
+
+
 **Heart disease frequency per chest pain type**
 
 
@@ -52,13 +60,16 @@ There is no need to preprocess the data for this project, the data set is alread
 
 
 ![image](https://user-images.githubusercontent.com/70978272/136005961-21385a71-eb2a-46a9-a196-d19cc0f12825.png)
-**KNN**
+
+
+
+**Result of fine tuning KNN**
 
 ### 6.2 Evaluating our tuned machine learning classifier, beyond accuracy (use Logistic as a model example)
 
 * ROC curve and AUC score
 ![image](https://user-images.githubusercontent.com/70978272/136006987-f73558e2-5ff5-4da9-ad9f-4881827330d2.png)
-**=from Logistic model**
+
 
 
 * Confusion matrix
